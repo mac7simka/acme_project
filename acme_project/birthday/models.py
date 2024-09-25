@@ -1,8 +1,10 @@
-from django.db import models
 from django.contrib.auth.models import AbstractUser
-#  from django.urls import reverse
+from django.db import models
 
 from .validators import real_age
+
+#  from django.urls import reverse
+
 
 
 class Birthday(models.Model):

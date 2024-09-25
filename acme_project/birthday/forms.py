@@ -5,7 +5,6 @@ from django.core.mail import send_mail
 
 from .models import Birthday, Congratulation
 
-
 BEATLES = {'Джон Леннон', 'Пол Маккартни', 'Джордж Харрисон', 'Ринго Старр'}
 
 

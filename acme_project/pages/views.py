@@ -1,7 +1,6 @@
 # Импортируем класс TemplateView, чтобы унаследоваться от него.
-from django.views.generic import TemplateView
-
 from birthday.models import Birthday
+from django.views.generic import TemplateView
 
 
 class HomePage(TemplateView):

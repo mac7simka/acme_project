@@ -1,13 +1,11 @@
 # birthday/views.py
-from django.views.generic import (
-    CreateView, DeleteView, DetailView, ListView, UpdateView
-)
-from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404, redirect
+from django.urls import reverse_lazy
+from django.views.generic import (CreateView, DeleteView, DetailView, ListView,
+                                  UpdateView)
 
-from .forms import BirthdayForm
-from .forms import CongratulationForm
+from .forms import BirthdayForm, CongratulationForm
 from .models import Birthday
 from .utils import calculate_birthday_countdown
 

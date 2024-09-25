@@ -1,8 +1,6 @@
 from django.contrib import admin
 
-
 from .models import Birthday
-
 
 empty_value_display = 'Не задано'
 
